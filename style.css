@@ -1,0 +1,158 @@
+body {
+    background-color: #eceeef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: #838486;
+    border-radius: 20px;
+    width: 80%;
+}
+
+header h1, p {
+    color: #feffff;
+    margin: 20px;
+}
+
+.nav-sosmed {
+    width: 80%;
+    background-color: #838486;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.nav-sosmed ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-sosmed h4 {
+    color: #feffff;
+}
+
+.nav-sosmed li {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.nav-sosmed a {
+    color: #feffff;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 60%;
+    border-radius: 20px;
+    background-color: #838486;
+}
+aside h3 {
+    color: #feffff;
+}
+
+aside h3, table {
+    margin: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #c9c7c8 ;
+    color: #feffff;
+    font-weight: bold;
+}
+
+td {
+    background: #feffff;
+}
+
+td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+}
+
+section {
+    width: 40%;
+    background-color: #838486;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+section h3 {
+    color: #feffff;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+figcaption {
+    margin-left: 20px;
+    color: #feffff;
+}
+
+.photo-profile {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    box-shadow: 4px 4px 8px #ccc;
+}
+
+footer {
+    width: 80%;
+    background-color: #838486;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) and (max-device-width: 1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+    }
+
+    figcaption {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
